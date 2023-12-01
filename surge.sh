@@ -126,7 +126,7 @@ function install_packages() {
       ;;
   esac
 }
-
+install_packages
 # 检测 Node.js 是否已经安装
 if ! command -v node &>/dev/null; then
   echo -e "${YELLOW}检测到未安装 Node.js，正在自动安装...${NC}"
